@@ -1,0 +1,33 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/MenuStyles.uss?fileID=7433441132597879392&amp;guid=a746b76671081ed43b446e33c7652757&amp;type=3#MenuStyles" />
+    <ui:VisualElement name="Body" style="height: 100%; width: 100%; flex-direction: column; flex-grow: 1; -unity-text-align: upper-left; justify-content: flex-start; align-items: center; background-image: url(&apos;project://database/Assets/Images/UI/Level_select_map.jpg?fileID=2800000&amp;guid=c3e5e2ebef609c749a525d2b5aa436de&amp;type=3#Level_select_map&apos;);">
+        <ui:VisualElement name="Tutorial" class="level-item" style="left: 500px; top: 300px;">
+            <ui:Button text="Button" display-tooltip-when-elided="true" name="TutorialButton" class="level-button">
+                <ui:VisualElement name="TutorialMedal" class="level-medal" />
+            </ui:Button>
+            <ui:Label text="Tutorial" display-tooltip-when-elided="true" class="level-text" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Level1" class="level-item" style="position: absolute; left: 800px; top: 600px;">
+            <ui:Button text="Button" display-tooltip-when-elided="true" name="Level1Button" class="level-button">
+                <ui:VisualElement name="Level1Medal" class="level-medal" />
+                <ui:VisualElement name="Level1Lock" style="background-image: url(&apos;project://database/Assets/Images/UI/lock%20png.png?fileID=2800000&amp;guid=b6c40b5d4c31c77439e6a0764e8d7b87&amp;type=3#lock png&apos;); height: 100px; width: 100px; scale: 0.5 0.5; transform-origin: 40%;" />
+            </ui:Button>
+            <ui:Label text="Level 1" display-tooltip-when-elided="true" class="level-text" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Level2" class="level-item" style="left: 200px; top: 600px;">
+            <ui:Button text="Button" display-tooltip-when-elided="true" name="Level2Button" class="level-button">
+                <ui:VisualElement name="Level2Medal" class="level-medal" />
+                <ui:VisualElement name="Level2Lock" style="background-image: url(&apos;project://database/Assets/Images/UI/lock%20png.png?fileID=2800000&amp;guid=b6c40b5d4c31c77439e6a0764e8d7b87&amp;type=3#lock png&apos;); height: 100px; width: 100px; scale: 0.5 0.5; transform-origin: 40%;" />
+            </ui:Button>
+            <ui:Label text="Level 2" display-tooltip-when-elided="true" class="level-text" />
+        </ui:VisualElement>
+        <ui:VisualElement name="Level3" class="level-item" style="left: 1200px; top: 500px;">
+            <ui:Button text="Button" display-tooltip-when-elided="true" name="Level3Button" class="level-button">
+                <ui:VisualElement name="Level3Medal" class="level-medal" />
+                <ui:VisualElement name="Level3Lock" style="background-image: url(&apos;project://database/Assets/Images/UI/lock%20png.png?fileID=2800000&amp;guid=b6c40b5d4c31c77439e6a0764e8d7b87&amp;type=3#lock png&apos;); height: 100px; width: 100px; scale: 0.5 0.5; transform-origin: 40%;" />
+            </ui:Button>
+            <ui:Label text="Level 3" display-tooltip-when-elided="true" class="level-text" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:Button text="Back" display-tooltip-when-elided="true" name="BackButton" class="menu-button" style="margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; width: 200px; height: 100px; max-width: 200px; min-width: 200px; max-height: 100px; min-height: 100px; position: absolute; top: 14px; left: 34px;" />
+</ui:UXML>

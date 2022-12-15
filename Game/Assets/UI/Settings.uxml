@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/MenuStyles.uss?fileID=7433441132597879392&amp;guid=a746b76671081ed43b446e33c7652757&amp;type=3#MenuStyles" />
+    <ui:VisualElement name="Body" style="height: 100%; width: 100%; flex-direction: column; flex-grow: 1; -unity-text-align: upper-left; justify-content: flex-start; align-items: center; flex-wrap: nowrap; background-color: rgb(0, 0, 0);">
+        <ui:Label text="Settings" display-tooltip-when-elided="true" enable-rich-text="true" class="menu-title" style="-unity-text-align: middle-center; justify-content: center; align-items: center; height: 1px; width: auto;" />
+        <ui:Slider picking-mode="Ignore" label="Volume" value="15" high-value="30" name="VolumeSlider" inverted="false" show-input-field="false" page-size="1" low-value="-50" focusable="false" class="menu-slider" style="width: 680px; flex-direction: row-reverse; height: 169px; max-height: 20%; min-height: 20%; min-width: 20%; max-width: 50%;" />
+        <ui:Slider picking-mode="Ignore" label="        Sensitivity" value="35" high-value="100" name="SensitivitySlider" inverted="false" show-input-field="false" page-size="1" low-value="0" focusable="false" class="menu-slider" style="width: 646px; flex-direction: row-reverse; height: 258px;" />
+        <ui:Toggle label="Fullscreen" name="FullscreenToggle" value="false" focusable="true" class="menu-toggle" />
+        <ui:Button text="Return" display-tooltip-when-elided="true" name="ReturnButton" low-value="5" class="menu-button" style="max-height: 10%; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0;" />
+    </ui:VisualElement>
+</ui:UXML>

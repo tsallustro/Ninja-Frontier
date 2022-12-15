@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/MenuStyles.uss?fileID=7433441132597879392&amp;guid=a746b76671081ed43b446e33c7652757&amp;type=3#MenuStyles" />
+    <ui:VisualElement name="Body" style="height: 100%; width: 100%; flex-direction: column; flex-grow: 1; -unity-text-align: upper-left; justify-content: flex-start; align-items: center; flex-wrap: nowrap; background-color: rgba(0, 0, 0, 255);">
+        <ui:Label text="PAUSED" display-tooltip-when-elided="true" enable-rich-text="true" class="menu-title" style="-unity-text-align: middle-center; justify-content: center; align-items: center;" />
+        <ui:Button text="Return" display-tooltip-when-elided="true" name="ReturnButton" class="menu-button" style="max-height: 10%; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0;" />
+        <ui:Button text="Settings" display-tooltip-when-elided="true" name="SettingsButton" class="menu-button" style="max-height: 10%; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0;" />
+        <ui:Button text="Quit" display-tooltip-when-elided="true" name="QuitButton" class="menu-button" style="max-height: 10%; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0;" />
+    </ui:VisualElement>
+</ui:UXML>

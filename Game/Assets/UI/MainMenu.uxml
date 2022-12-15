@@ -1,0 +1,20 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/MenuStyles.uss?fileID=7433441132597879392&amp;guid=a746b76671081ed43b446e33c7652757&amp;type=3#MenuStyles" />
+    <ui:VisualElement name="BackgroundImage" style="position: absolute; width: 100%; height: 100%; background-image: url(&apos;project://database/Assets/Images/UI/MainMenuBackground%201.png?fileID=2800000&amp;guid=1509c043998d9574fab6c69485b36904&amp;type=3#MainMenuBackground 1&apos;);" />
+    <ui:VisualElement name="ButtonSection" style="height: 60%; width: 33%; background-color: rgba(0, 0, 0, 0); margin-left: 0; margin-bottom: 0; top: 40%; bottom: auto; position: relative; left: 0; margin-right: 0; margin-top: 0; flex-direction: column; flex-wrap: nowrap; flex-grow: 0; padding-left: 5%; padding-bottom: 5%; justify-content: space-around; max-width: 33%; min-width: 33%; max-height: 60%; min-height: 60%;">
+        <ui:Button text="Load Game" display-tooltip-when-elided="true" name="LoadButton" class="menu-button" />
+        <ui:Button text="New Game" display-tooltip-when-elided="true" name="NewButton" class="menu-button" />
+        <ui:Button text="Settings" display-tooltip-when-elided="true" name="SettingsButton" class="menu-button" />
+        <ui:Button text="Quit" display-tooltip-when-elided="true" name="QuitButton" class="menu-button" />
+    </ui:VisualElement>
+    <ui:VisualElement name="TitleSection" style="position: absolute; left: 25%; top: 0; right: 25%; bottom: 75%;">
+        <ui:Label text="NINJA FRONTIER" display-tooltip-when-elided="true" name="Title" class="menu-title" style="position: absolute; left: 0; top: 0; right: 0; bottom: 0; background-color: rgba(22, 15, 15, 0);" />
+    </ui:VisualElement>
+    <ui:VisualElement name="NewFileSection" style="width: 50%; max-width: 50%; min-width: 50%; height: 30%; max-height: 30%; min-height: 30%; top: 35%; left: 25%; position: absolute; align-items: center; justify-content: space-around;">
+        <ui:TextField picking-mode="Ignore" label="Text Field" value="filler text" name="FileNameField" is-delayed="false" style="font-size: 50px; flex-grow: 1; max-height: none; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 2px; padding-right: 2px; padding-top: 2px; padding-bottom: 2px;" />
+        <ui:VisualElement name="NewFileButtonSection" style="flex-direction: row; flex-grow: 1; width: 100%;">
+            <ui:Button text="OK" display-tooltip-when-elided="true" name="OKButton" class="menu-button" style="margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0;" />
+            <ui:Button text="Cancel" display-tooltip-when-elided="true" name="CancelButton" class="menu-button" style="margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

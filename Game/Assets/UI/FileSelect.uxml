@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/MenuStyles.uss?fileID=7433441132597879392&amp;guid=a746b76671081ed43b446e33c7652757&amp;type=3#MenuStyles" />
+    <ui:VisualElement name="TitleSection" style="height: 20%; max-height: 20%; min-height: 20%; width: 100%; max-width: 100%; min-width: 100%;">
+        <ui:Label text="File Select" display-tooltip-when-elided="true" name="Title" class="menu-title" />
+    </ui:VisualElement>
+    <ui:ScrollView horizontal-scroller-visibility="Hidden" focusable="false" name="FileScrollArea" style="height: 80%; left: 0; top: 0; right: 0; bottom: 0; max-height: 80%; min-height: 80%;" />
+</ui:UXML>

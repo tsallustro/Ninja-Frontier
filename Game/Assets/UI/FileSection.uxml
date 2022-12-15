@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/MenuStyles.uss?fileID=7433441132597879392&amp;guid=a746b76671081ed43b446e33c7652757&amp;type=3#MenuStyles" />
+    <ui:VisualElement name="File1Section" class="file-section">
+        <ui:Label text="Sample File" display-tooltip-when-elided="true" name="FileName" class="file-name" />
+        <ui:VisualElement name="DatesSection">
+            <ui:Label text="Created: xx/xx/xxxx" display-tooltip-when-elided="true" name="CreateDate" class="file-name" />
+            <ui:Label text="Last Save: xx/xx/xxxx" display-tooltip-when-elided="true" name="LastSave" class="file-name" />
+        </ui:VisualElement>
+        <ui:Button text="Select" display-tooltip-when-elided="true" name="SelectButton" style="width: 20%; max-width: 20%; min-width: 20%; height: 50%; max-height: 50%; min-height: 50%; font-size: 25px;" />
+    </ui:VisualElement>
+</ui:UXML>
